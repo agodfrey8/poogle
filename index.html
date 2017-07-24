@@ -7,52 +7,43 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="scripts/main.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="styles/style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <nav id="top-bar" class="navbar navbar-default">
-      <div class="top-nav container-fluid">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Courier</a></li>
-          <li><a href="#">Binoculars</a></li>
-          <li><a href="#"><i id="grid" class="fa fa-th" aria-hidden="true"></i></a></li>
-          <li><a href="#"><button type="button" class="login-btn btn btn-info">Enter the Hub</button></a></li>
-        </ul>
-      </div>
-    </nav>
     <div class="container">
-      <div class="logo text-center col-md-12">
-        <div class="row">
+      <div class="row">
+        <div class="logo text-center col-md-12">
           <h1 class="logo-text"><span class="blue-char">P</span><span class="red-char">o</span></h1>
           <img src="images/poogie.jpg" alt="Poogie!">
           <h1 class="logo-text"><span class="blue-char">g</span><span class="green-char">l</span><span class="red-char">e</span></h1>
         </div>
-        <div class="row">
+      </div>
+      <div class="row">
+        <div class="text-center col-md-12">
           <form>
-            <input class="search-bar" type="text">
+            <input type="checkbox" name="game" value="+MH3U+3U+3+Ultimate"> MH3U
+            <input type="checkbox" name="game" value="+MH4U+4U+4+Ultimate"> MH4U
+            <input type="checkbox" name="game" value="+MHGen+Gen+Generations"> Generations
+            <input type="checkbox" name="game" value="+MHWorld+World"> World
           </form>
         </div>
-        <div class="row">
-          <button type="button" class="search-btn btn btn-info">Autotracker</button>
+      </div>
+      <div class="row">
+        <div class="text-center col-md-12">
+          <form>
+            <input id="search-text" class="search-bar" type="text">
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="text-center col-md-12">
+          <a id="search-link" href="#"><button id="search-button" type="button" class="search-btn btn btn-info">Hunter Search</button></a>
           <button type="button" class="search-btn btn btn-info">Crazy Lucky Cat</button>
         </div>
       </div>
     </div>
-    <nav id="bottom-bar" class="navbar navbar-default navbar-fixed-bottom">
-      <div class="bottom-nav container-fluid">
-        <ul class="nav navbar-nav">
-          <li><a href="#">Quest Board</a></li>
-          <li><a href="#">Guild</a></li>
-          <li><a href="#">Hunter Note's</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Sense</a></li>
-          <li><a href="#">Quest Notes</a></li>
-          <li><a href="#">Inventory</a></li>
-          <li><a href="https://www.google.com">Use Google.com</a></li>
-        </ul>
-      </div>
-    </nav>
   </body>
 </html>
