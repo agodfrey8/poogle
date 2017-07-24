@@ -11,6 +11,12 @@
     <script src="scripts/main.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
   </head>
   <body>
     <div class="container">
@@ -24,18 +30,28 @@
       <div class="row">
         <div class="text-center col-md-12">
           <form>
-            <input type="radio" name="game" value=""> Any
-            <input type="radio" name="game" value="+MH3U+3U+3+Ultimate"> MH3U
-            <input type="radio" name="game" value="+MH4U+4U+4+Ultimate"> MH4U
-            <input type="radio" name="game" value="+MHGen+Gen+Generations"> Generations
-            <input type="radio" name="game" value="+MHWorld+World"> World
+            <input id="search-text" class="search-bar" type="text">
           </form>
         </div>
       </div>
       <div class="row">
         <div class="text-center col-md-12">
           <form>
-            <input id="search-text" class="search-bar" type="text">
+            <div class="game-select">
+              <input type="radio" name="game" value=""> Any
+            </div>
+            <div class="game-select">
+              <input type="radio" name="game" value="+MH3U+3U+3+Ultimate"> MH3U
+            </div>
+            <div class="game-select">
+              <input class="game-select" type="radio" name="game" value="+MH4U+4U+4+Ultimate"> MH4U
+            </div>
+            <div class="game-select">
+              <input class="game-select" type="radio" name="game" value="+MHGen+Gen+Generations"> Generations
+            </div>
+            <div class="game-select">
+              <input class="game-select" type="radio" name="game" value="+MHWorld+World"> World
+            </div>
           </form>
         </div>
       </div>

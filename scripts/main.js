@@ -1,7 +1,7 @@
 $(document).ready(function(){
   if(!localStorage.getItem("game")) {
     $.each($("input[name='game']"), function(){
-      if($(this).val() == "+MHGen+Gen+Generations"){
+      if($(this).val() == ""){
         $(this).prop('checked', true);
       }
     });
